@@ -21,7 +21,7 @@ const TourCard: React.FC<TourCardProps> = ({
 }) => {
   const handleWhatsAppClick = () => {
     const message = `Hi, I am interested in the tour "${title}".\n\nDetails:\n- Description: ${description}\n- Duration: ${duration}\n- Difficulty: ${difficulty}\n- Price: ₹${price}\n\nPlease share more details.`;
-    window.open(`https://wa.me/8097621390?text=${encodeURIComponent(message)}`, '_blank');
+    window.open(`https://wa.me/918097621390?text=${encodeURIComponent(message)}`, '_blank');
   };
 
   return (
