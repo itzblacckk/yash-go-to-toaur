@@ -58,7 +58,7 @@ const TourCard: React.FC<TourCardProps> = ({
             className="flex items-center space-x-2 bg-green-700 text-white px-4 py-2 rounded-md hover:bg-green-800 transition-colors"
           >
             <MessageCircle className="w-5 h-5" />
-            <span>Contact on WhatsApp</span>
+            <span>Book</span>
           </button>
         </div>
       </div>
